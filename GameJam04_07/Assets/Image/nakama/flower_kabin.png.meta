@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flower_kabin_0: -21420231831802165
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
