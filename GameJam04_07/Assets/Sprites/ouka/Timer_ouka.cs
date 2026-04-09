@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class Timer_ouka : MonoBehaviour
 {
-    [SerializeField] float time;
+    public float time;
     private float resetTime;//初期設定値記憶用
 
     [SerializeField] Text timerText; //テキスト表示

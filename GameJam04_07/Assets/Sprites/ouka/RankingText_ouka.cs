@@ -9,7 +9,13 @@ public class RankingText_ouka : MonoBehaviour
     void Start()
     {
         ResultManager_ouka manager = FindFirstObjectByType<ResultManager_ouka>();
+
+        // ★ 今回のスコアを追加
+        manager.AddScore(scoreHolder_ouka.score);
+
+        // ★ ランキング取得
         List<int> scores = manager.GetRanking();
+
         string result = "";
 
         for (int i = 0; i < scores.Count; i++)

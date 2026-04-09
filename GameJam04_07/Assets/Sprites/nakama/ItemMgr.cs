@@ -19,6 +19,7 @@ public class ItemMgr : MonoBehaviour
 
     [SerializeField] public GameObject Item;          // アイテムを生成する場所
     [SerializeField] public GameObject effect;        // エフェクトを生成する場所
+    [SerializeField] public GameObject time;
 
     /*    [Serializable]
         public enum ItemName
@@ -81,7 +82,7 @@ public class ItemMgr : MonoBehaviour
             beforeItem = RandomItem();
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && NowItem.GetComponent<BreakItem>().HP >= 1 && NowItem.transform.position == new Vector3(0, 0, 0))
+        if (Input.GetKeyDown(KeyCode.Space) && NowItem.GetComponent<BreakItem>().HP >= 1 && NowItem.transform.position == new Vector3(0, 0, 0) && time.GetComponent<Timer_ouka>().time>0)
         {
             RandomEffect();
             NowItem.GetComponent<BreakItem>().HP--;
