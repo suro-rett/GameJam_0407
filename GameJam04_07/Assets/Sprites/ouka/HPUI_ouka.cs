@@ -12,16 +12,12 @@ public class HPUI_ouka : MonoBehaviour
 
     void Update()
     {
-        TargetObject_ouka target = spawner.currentTarget;
 
-        if (target != null)
+        if (ItemMgr.instance != null)
         {
-            float ratio = (float)target.currentHP / target.maxHP;
+            float ratio = (float)ItemMgr.instance.NowItem.GetComponent<BreakItem>().HP / (float)ItemMgr.instance.NowItem.GetComponent<BreakItem>().MAXHP;
             hpBar.fillAmount = ratio;
         }
-        else
-        {
-            hpBar.fillAmount = 0;
-        }
+        
     }
 }
