@@ -1,0 +1,29 @@
+using UnityEngine;
+
+public class Spawn_ouka : MonoBehaviour
+{
+    public GameObject[] prefabs;
+    public Transform spawnPoint;
+
+    public TargetObject_ouka currentTarget; // ÅöÇ±ÇÍí«â¡
+
+    void Start()
+    {
+        Spawn();
+    }
+
+    public void Spawn()
+    {
+        int index = Random.Range(0, prefabs.Length);
+        GameObject obj = Instantiate(prefabs[index], spawnPoint.position, Quaternion.identity);
+
+        currentTarget = obj.GetComponent<TargetObject_ouka>(); // ÅöÇ±Ç±èdóv
+    }
+
+    public void OnTargetDestroyed()
+    {
+        currentTarget = null;
+        Invoke(nameof(Spawn), 0.5f);
+    }
+
+}
