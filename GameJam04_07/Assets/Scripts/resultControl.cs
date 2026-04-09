@@ -16,7 +16,7 @@ public class resultController : MonoBehaviour
     }
     public void onClickRestartButton()
     {
-        SceneManager.LoadScene("gamescene");
+        SceneManager.LoadScene("Game_ouka");
     }
     // スタートボタンが押されたときに呼ばれる関数
     public void onClickTitleButton()

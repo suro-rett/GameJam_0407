@@ -2,6 +2,7 @@ using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using static UnityEditor.Progress;
 
 public class ItemMgr : MonoBehaviour
@@ -20,6 +21,11 @@ public class ItemMgr : MonoBehaviour
     [SerializeField] public GameObject Item;          // アイテムを生成する場所
     [SerializeField] public GameObject effect;        // エフェクトを生成する場所
     [SerializeField] public GameObject time;
+
+    public AudioClip sound1;
+    public AudioClip sound2;
+
+    AudioSource audioSource;
 
     /*    [Serializable]
         public enum ItemName
@@ -54,7 +60,9 @@ public class ItemMgr : MonoBehaviour
 
         NowItem = RandomItem();
         beforeItem = RandomItem();
-        NowItem.transform.position = new Vector3(0, 0, 0); 
+        NowItem.transform.position = new Vector3(0, 0, 0);
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -62,6 +70,7 @@ public class ItemMgr : MonoBehaviour
     {
         if (NowItem.GetComponent<BreakItem>().HP == 0)
         {
+            audioSource.PlayOneShot(sound1);
             NowItem.GetComponent<BreakItem>().HP--;
             score += NowItem.GetComponent<BreakItem>().Score;
         }
@@ -82,8 +91,9 @@ public class ItemMgr : MonoBehaviour
             beforeItem = RandomItem();
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && NowItem.GetComponent<BreakItem>().HP >= 1 && NowItem.transform.position == new Vector3(0, 0, 0) && time.GetComponent<Timer_ouka>().time>0)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && NowItem.GetComponent<BreakItem>().HP >= 1 && NowItem.transform.position == new Vector3(0, 0, 0) && time.GetComponent<Timer_ouka>().time>0)
         {
+            audioSource.PlayOneShot(sound2);
             RandomEffect();
             NowItem.GetComponent<BreakItem>().HP--;
         }

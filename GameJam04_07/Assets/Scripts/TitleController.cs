@@ -18,6 +18,6 @@ public class TitleController : MonoBehaviour
     // スタートボタンが押されたときに呼ばれる関数
     public void onClickStartButton()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Game_ouka");
     }
 }

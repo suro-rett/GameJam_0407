@@ -100,8 +100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7bfb8bb1cf97b845a939af53833277c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 6
-  MAXHP: 6
-  Score: 2
+  HP: 3
+  MAXHP: 3
+  Score: 75
   Image: {fileID: 3499272959063439820, guid: 5961930332d19e54abbac44aaa0ae244, type: 3}
   BreakImage: {fileID: 21300000, guid: 6ce3a967cafa666469848115da4ef446, type: 3}
