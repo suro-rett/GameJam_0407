@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 41a1be7669852254c8a00f668330b85d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4898625848435381889
+    second: kabin_0
+  - first:
+      213: -193563680935437046
+    second: kabin_1
+  - first:
+      213: -944228262414254182
+    second: kabin_2
+  - first:
+      213: -6792142506051127614
+    second: kabin_3
+  - first:
+      213: 3597108336197046590
+    second: kabin_4
+  - first:
+      213: -7054491289406186857
+    second: kabin_5
+  - first:
+      213: 3161795785063763179
+    second: kabin_6
+  - first:
+      213: -7156451409658862504
+    second: kabin_7
+  - first:
+      213: 5630172350394994505
+    second: kabin_8
+  - first:
+      213: -4155365499655524860
+    second: kabin_9
+  - first:
+      213: 1227375504859113468
+    second: kabin_10
+  - first:
+      213: -682223894575652328
+    second: kabin_11
+  - first:
+      213: -834015758878336558
+    second: kabin_12
+  - first:
+      213: 3756262264001233052
+    second: kabin_13
+  - first:
+      213: -4771572263793229287
+    second: kabin_14
+  - first:
+      213: 6986058927785579051
+    second: kabin_15
+  - first:
+      213: -3745486280194413740
+    second: kabin_16
+  - first:
+      213: 7335216724892774599
+    second: kabin_17
+  - first:
+      213: 5135002385402003160
+    second: kabin_18
+  - first:
+      213: 281729476038874525
+    second: kabin_19
+  - first:
+      213: 6069053008504236703
+    second: kabin_20
+  - first:
+      213: -926602249705604957
+    second: kabin_21
+  - first:
+      213: 6490073263112430909
+    second: kabin_22
+  - first:
+      213: -1537259935366476474
+    second: kabin_23
+  - first:
+      213: 612558338386965737
+    second: kabin_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kabin_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 433
+        width: 77
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f796670beb5940cb0800000000000000
+      internalID: -4898625848435381889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 415
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d1d649bd2505df0800000000000000
+      internalID: -193563680935437046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 413
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ff9e7e56d65e2f0800000000000000
+      internalID: -944228262414254182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 342
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6bdf680667db1a0800000000000000
+      internalID: -6792142506051127614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 388
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e311f9539fe7be130800000000000000
+      internalID: 3597108336197046590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_5
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 338
+        width: 112
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a5bdf6c89691e90800000000000000
+      internalID: -7054491289406186857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_6
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 386
+        width: 82
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec8d0db384f0eb20800000000000000
+      internalID: 3161795785063763179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_7
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 378
+        width: 82
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854a0f20c5d2fac90800000000000000
+      internalID: -7156451409658862504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 289
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f05893ce3622e40800000000000000
+      internalID: 5630172350394994505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 250
+        width: 114
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e6e19181d2556c0800000000000000
+      internalID: -4155365499655524860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_10
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 332
+        width: 71
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7a42dc483880110800000000000000
+      internalID: 1227375504859113468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_11
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 288
+        width: 55
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812e8828bf04886f0800000000000000
+      internalID: -682223894575652328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_12
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 189
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d99afa061bfc64f0800000000000000
+      internalID: -834015758878336558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_13
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 245
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c908ff8a0ace02430800000000000000
+      internalID: 3756262264001233052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_14
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 205
+        width: 58
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9128f749e48f7cdb0800000000000000
+      internalID: -4771572263793229287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_15
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 213
+        width: 94
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b221b92c49773f060800000000000000
+      internalID: 6986058927785579051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_16
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 198
+        width: 38
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ba9e5921c550cc0800000000000000
+      internalID: -3745486280194413740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_17
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 93
+        width: 46
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0fcb56fbcebc560800000000000000
+      internalID: 7335216724892774599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_18
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 151
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de7bae8671334740800000000000000
+      internalID: 5135002385402003160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_19
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 141
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95dd0e3777e8e300800000000000000
+      internalID: 281729476038874525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_20
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 92
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a29e65e8b993450800000000000000
+      internalID: 6069053008504236703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_21
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 67
+        width: 57
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8383ac92c0423f0800000000000000
+      internalID: -926602249705604957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_22
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 15
+        width: 74
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35a3163f3f511a50800000000000000
+      internalID: 6490073263112430909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_23
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 20
+        width: 58
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d8a09cb3e8aaae0800000000000000
+      internalID: -1537259935366476474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kabin_24
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 5
+        width: 90
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e432c3309e308800800000000000000
+      internalID: 612558338386965737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      kabin_0: -4898625848435381889
+      kabin_1: -193563680935437046
+      kabin_10: 1227375504859113468
+      kabin_11: -682223894575652328
+      kabin_12: -834015758878336558
+      kabin_13: 3756262264001233052
+      kabin_14: -4771572263793229287
+      kabin_15: 6986058927785579051
+      kabin_16: -3745486280194413740
+      kabin_17: 7335216724892774599
+      kabin_18: 5135002385402003160
+      kabin_19: 281729476038874525
+      kabin_2: -944228262414254182
+      kabin_20: 6069053008504236703
+      kabin_21: -926602249705604957
+      kabin_22: 6490073263112430909
+      kabin_23: -1537259935366476474
+      kabin_24: 612558338386965737
+      kabin_3: -6792142506051127614
+      kabin_4: 3597108336197046590
+      kabin_5: -7054491289406186857
+      kabin_6: 3161795785063763179
+      kabin_7: -7156451409658862504
+      kabin_8: 5630172350394994505
+      kabin_9: -4155365499655524860
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
