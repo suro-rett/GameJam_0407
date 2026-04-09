@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/ouka/Title_ouka.unity
+    guid: 456678a6ddd757b45ad65979d4c72a3c
+  - enabled: 1
+    path: Assets/Scenes/ouka/Game_ouka.unity
+    guid: 5adac1a0cc301434381ec28aa8e2c522
+  - enabled: 1
+    path: Assets/Scenes/ouka/Result_ouka.unity
+    guid: c02ed936b643acb43a0c81e153e4d958
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
