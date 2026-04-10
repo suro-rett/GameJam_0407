@@ -12,13 +12,13 @@ EditorBuildSettings:
     path: Assets/Scenes/ouka/Title_ouka.unity
     guid: 456678a6ddd757b45ad65979d4c72a3c
   - enabled: 1
-    path: Assets/Scenes/ouka/Game_ouka.unity
+    path: Assets/Scenes/GameplayScene/Game_ouka.unity
     guid: 5adac1a0cc301434381ec28aa8e2c522
   - enabled: 1
-    path: Assets/Scenes/ouka/Result_ouka.unity
+    path: Assets/Scenes/GameplayScene/Result_ouka.unity
     guid: c02ed936b643acb43a0c81e153e4d958
   - enabled: 1
-    path: Assets/Scenes/Title.unity
+    path: Assets/Scenes/GameplayScene/Title.unity
     guid: 1f920b0da6385a541b724070b9baf7d4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
