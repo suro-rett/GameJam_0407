@@ -346,6 +346,7 @@ MonoBehaviour:
     m_SelectedIDs: f4350000
     m_LastClickedID: 13812
     m_ExpandedIDs: 0000000096b70000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -375,6 +376,7 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: 0000000096b70000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1127,6 +1129,7 @@ MonoBehaviour:
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
     m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 7.428928, y: 0.3567765, z: 0.03485668}
     speed: 2
     m_Value: {x: 1082.1956, y: 584.51105, z: -1.2163259}
   m_RenderMode: 0
